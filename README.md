@@ -23,6 +23,8 @@ El proyecto está modularizado en 4 archivos principales:
 | `bancoBackend.py` | Simula el servidor de la entidad financiera. Contiene la "base de datos" en arrays y la cola de procesamiento. |
 | `cajeroLogica.py` | Maneja la sesión del usuario actual, el registro del array del historial y las reglas de negocio del ATM (retiros, consultas, errores). |
 | `main.py` | Punto de entrada de la aplicación. Ejecuta la interfaz de usuario en una ventana. |
+| `gui.py`  | Interfaz grafica orientada a objetos, simulación explicita como ejemplo del sistema |
+| `test.py` | Este archivo es para pruebas, no debe ser ejecutado directamente. |
 
 ## Requisitos
 * Python 3.x instalado en tu sistema.
@@ -30,7 +32,7 @@ El proyecto está modularizado en 4 archivos principales:
 
 ## Cómo Ejecutar el Proyecto
 1. Clona o descarga este repositorio en tu máquina local.
-2. Abre una terminal y navega hasta la carpeta del proyecto.
-3. Ejecuta el archivo principal con el siguiente comando:
+2. Abre una terminal y navega hasta la carpeta del proyecto en .venv/Scripts/python.exe .
+3. Ejecuta el archivo principal con el siguiente comando: 
    ```bash
-   python main.py
+   python gui.py
